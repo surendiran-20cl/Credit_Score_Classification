@@ -11,13 +11,13 @@ This is a **multiclass classification** problem with the target variable being `
 
 The end-to-end pipeline includes preprocessing, feature engineering, exploratory data analysis (EDA), model training, hyperparameter tuning, performance evaluation, and interpretability via feature importance and ROC curves.
 
----
+
 
 ## Problem Statement
 
 A global financial organization has collected extensive credit-related data of individuals. The task is to build an intelligent classification system that can predict a person's credit score category (`Poor`, `Standard`, or `Good`) using supervised learning techniques.
 
----
+
 
 ## Dataset Description
 
@@ -51,7 +51,6 @@ The dataset consists of **100,000 records** with **28 features**, including demo
 | `Monthly_Balance`            | Net balance at the end of the month                                         |
 | `Credit_Score` (Target)      | Credit score class (0=Poor, 1=Standard, 2=Good)                             |
 
----
 
 ## Tech Stack
 
@@ -63,7 +62,7 @@ The dataset consists of **100,000 records** with **28 features**, including demo
   - `statsmodels`: multicollinearity (VIF)
   - `GridSearchCV`: hyperparameter optimization
 
----
+
 
 ## Project Workflow
 
@@ -100,7 +99,6 @@ All models were trained using `train_test_split` with an 80-20 ratio and evaluat
 - **Feature Importance** plots for interpretability
 - **Multiclass ROC Curves** and **AUC** per class using One-vs-Rest classifiers
 
----
 
 ## Model Performance Summary
 
@@ -113,7 +111,7 @@ All models were trained using `train_test_split` with an 80-20 ratio and evaluat
 
 **Conclusion**: The Random Forest Classifier outperformed all other models in terms of both overall accuracy and class-level consistency, making it the most robust model for deployment in this context.
 
----
+
 
 ## Visual Outputs
 
@@ -158,13 +156,13 @@ credit-score-classification/
 - Apply cross-validation and SMOTE for class imbalance, if needed
 - Deploy the model using Flask/FastAPI for production scenarios
 
----
+
 
 ## Author
 
 This project is part of the **Artificial Intelligence Certification Program** from Intellipaat and was implemented entirely in Python using Google Colab.
 
----
+
 
 ## License
 
