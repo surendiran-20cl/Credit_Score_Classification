@@ -122,7 +122,6 @@ All models were trained using `train_test_split` with an 80-20 ratio and evaluat
 - Classification Report Heatmaps
 - Multiclass ROC-AUC Curves (per model)
 
----
 
 ## Folder Structure
  
@@ -150,7 +149,7 @@ credit-score-classification/
 
 
 
----
+
 
 ## Future Improvements
 
