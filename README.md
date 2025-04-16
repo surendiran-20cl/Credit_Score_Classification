@@ -121,32 +121,6 @@ All models were trained using `train_test_split` with an 80-20 ratio and evaluat
 - Multiclass ROC-AUC Curves (per model)
 
 
-## Folder Structure
- 
-credit-score-classification/
-│
-├── data/
-│   └── credit_score_raw.csv             # Original or cleaned dataset
-│
-├── notebooks/
-│   └── credit_score_analysis.ipynb      # Main Colab notebook with preprocessing, EDA, models
-│
-├── images/
-│   ├── confusion_matrix.png             # Confusion matrix heatmap
-│   ├── roc_curve_logistic.png           # ROC curve for Logistic Regression
-│   ├── roc_curve_tree.png               # ROC curve for Decision Tree
-│   ├── roc_curve_random_forest.png      # ROC curve for Random Forest
-│   └── feature_importance_rf.png        # Feature importance plot (Random Forest)
-│
-├── models/
-│   └── random_forest_model.pkl          # (Optional) Serialized trained model
-│
-├── README.md                            # Project documentation and overview
-├── requirements.txt                     # Python dependencies
-└── LICENSE                              # License file (e.g., MIT or Apache)
-
-
-
 
 
 ## Future Improvements
